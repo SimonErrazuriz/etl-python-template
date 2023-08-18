@@ -1,0 +1,33 @@
+etl:
+  name: etl-python-template
+
+path:
+  base: C:/workspace/
+  files: files
+  resources: resources
+
+extract:
+  db:
+    server: localhost
+    user: postgres
+    pass: postgres
+    port: 5432
+    database: bd_test
+    query: SELECT * FROM test
+
+load:
+  api:
+    url: https://reqres.in/api/users
+    authorization:
+    content_type:
+
+email:
+  server:
+    smtp: smtp.office365.com:587
+    imap: outlook.office365.com
+  credentials:
+    user:
+    pass:
+  settings:
+    subject: Reporte del proceso
+    recipients:
