@@ -15,7 +15,7 @@ The ETL process performs the following steps:
 
 ## Usage
 - Clone this repository to your local machine.
-- Configure the config_dev or config_prd properties file according to your environment.
+- Configure the config_dev or config_prd properties file according to your environment, example:
 ```yaml
 extract:
   db:
