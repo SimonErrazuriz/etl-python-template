@@ -7,7 +7,7 @@ This repository serves as a versatile template that can be reused as a starting 
 
 ## Features
 The ETL process performs the following steps:
-- Extraction: Data is extracted from a PostgreSQL table using the provided database connection parameters. The SQL query used for extraction is defined in the config_dev or config_prd properties file.
+- Extraction: Data is extracted from a PostgreSQL table using the provided database connection parameters. The SQL query used for extraction is defined in the config_dev.yaml or config_prd.yaml properties file.
 - Transformation: The extracted data is transformed into JSON format.
 - API Request: The transformed JSON data is sent as a request to the specified API endpoint.
 - File Saving: The transformed JSON data is saved to a file in the specified directory.
